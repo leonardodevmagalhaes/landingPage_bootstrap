@@ -1,0 +1,23 @@
+{
+  "name": "landingpage_bootstrap",
+  "version": "1.0.0",
+  "description": "Landing page Pizzaria Quality com bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoleodev/landingPage_bootstrap.git"
+  },
+  "keywords": [],
+  "author": "leonardo <leonardoj.m.@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leoleodev/landingPage_bootstrap/issues"
+  },
+  "homepage": "https://github.com/leoleodev/landingPage_bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
