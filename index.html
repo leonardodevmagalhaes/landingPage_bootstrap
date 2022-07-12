@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page responsiva com BootStrap</title>
     <link rel="icon" href="./images/icon.png">
+    
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
 
     <!-- STYLES -->
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -19,13 +22,46 @@
     <!-- FONTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap" rel="stylesheet">
+
 </head>
 <body>
+
+
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+
+        <div class="container py-3">
+            <a href="#" class="navbar-brand">
+                <img width="50" src="./images/icon.png" alt="Pizzaria Quality">
+                <span class="logo">Pizzaria Quality</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items" aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">CARDÁPIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">PROMOÇÕES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">ESPAÇO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    
     
 
     <!-- SCRIPTS -->
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/js/bootstrap.min.js">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./js/script.js"></script>
 
 </body>

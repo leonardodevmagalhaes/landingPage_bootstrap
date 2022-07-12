@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Kiwi Maru', serif
 }
-/* FONTES */
-/* font-family: 'Kiwi Maru', serif;
-font-family: 'Lobster', cursive; */
+.logo{
+    color: #000000;
+}
+.bg-primary-color{
+    background: #FA8072;
+}
