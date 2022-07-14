@@ -73,22 +73,47 @@
 .title{
     font-weight: 500;
     text-align: center;
-    margin: 3em 0;
+    padding: 1em 0;
+}
+.sec2{
+    background: #FAEEFF;
+    padding: 0 0 2em 0;
 }
 dt{
     margin: 0;
     padding: 2px 0 0 12px;
     position: -webkit-sticky;
     position: sticky;
-    top: 100px;
+    top: 96px;
     z-index: 999;
 }
+.box{
+    position: relative
+}
 .box-cardapio{
-    position: relative;
+    /* position: relative; */
     width: 100%;
     height: 80vh;
     overflow: auto;
     border: 1px solid #000;
     border-radius: 5px;
+}
+.nav-tabs{
+    display: flex;
+    flex-direction: column;
+}
+.div-pai h4{
+    font-weight: 500;
+    margin: 50px 0;
+    text-align: center;
+}
+.campo-de-produtos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.menu-cardapio{
+    background: #FA8072;
 }
 
