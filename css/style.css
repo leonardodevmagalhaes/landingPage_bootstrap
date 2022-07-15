@@ -136,3 +136,21 @@ dt{
     width: 50%;
     text-align: justify;
 }
+.redes-sociais{
+    padding-top: 1em ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer{
+    color: #FFFFFF;
+    padding: 2em 0;
+    background: #87243C;
+    
+}
+.developer{
+    margin-top: 1em 0 0 0;
+    text-align: center;
+}
