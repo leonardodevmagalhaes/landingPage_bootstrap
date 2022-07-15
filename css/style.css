@@ -88,14 +88,14 @@ dt{
     z-index: 999;
 }
 .box{
-    position: relative
+    position: relative;
 }
 .box-cardapio{
     /* position: relative; */
     width: 100%;
     height: 80vh;
     overflow: auto;
-    border: 1px solid #000;
+    border: 1px solid #FA8072;
     border-radius: 5px;
 }
 .nav-tabs{
@@ -107,13 +107,32 @@ dt{
     margin: 50px 0;
     text-align: center;
 }
-.campo-de-produtos{
+.campo-de-cards{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 5px;
 }
 .menu-cardapio{
     background: #FA8072;
 }
-
+.sec3{
+    background: #1F2A4F;
+    color: #FFFFFF;
+    padding: 0 0 2em 0;
+}
+.local{
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    padding: 2em;
+    margin: 5em 0;
+    text-align: center;
+    background: #FAEEFF;
+}
+.sobre{
+    width: 100%;
+    margin: 5em auto;
+    /* padding: 0.1em; */
+    width: 50%;
+    text-align: justify;
+}
