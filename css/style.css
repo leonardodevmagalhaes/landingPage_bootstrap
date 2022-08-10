@@ -23,6 +23,18 @@
     align-items: center;
     justify-content: space-around;
 }
+.buttonUp{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.buttonUp i{
+    font-size: 30px;
+    color: #FA8072;
+}
+.buttonUp i:hover{
+    cursor: pointer;
+}
 .box-fixed > i:hover{
     background: #FFFFFF;
     cursor: pointer;
